@@ -1,7 +1,9 @@
 """
-the important libraries "pandas and BeautifulSoup"
+the important dependencies "pandas and BeautifulSoup"
 must be correctly installed
 "python -m pip install pandas BeautifulSoup4"
+
+you can check the full list in file "requirements.txt"
 """
 
 import pandas as pd
