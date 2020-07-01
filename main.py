@@ -69,6 +69,8 @@ for row in rows:
 
 dataFrame = pd.DataFrame(data=data, columns=list_header) # init
 
-dataFrame.to_csv('scrap.csv', index=False, sep="|") # build the csv file seperator "|"
+output_file = "scrap.csv" # distination file
+
+dataFrame.to_csv(output_file, index=False, sep="|") # build the csv file separator "|"
 
 # To run this simply : "python main.py"
